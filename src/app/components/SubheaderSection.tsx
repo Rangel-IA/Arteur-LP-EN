@@ -36,9 +36,9 @@ export default function SubheaderSection() {
         >
           {/* ── Left Column: Editorial Statement ──────────────────────── */}
           <div className="arteur-subheader__statement-wrap">
-            <span className="arteur-subheader__dropcap" aria-hidden="true">U</span>
+            <span className="arteur-subheader__dropcap" aria-hidden="true">W</span>
             <p className="arteur-subheader__statement">
-              nimos <strong className="highlight">duas décadas de experiência internacional</strong> em <em className="italic">Fotografia de moda</em>, técnicas avançadas em <strong className="highlight">Engenharia de Prompt</strong> e <strong className="highlight">Estratégia de Negócios</strong> — para desenvolver muito mais do que criativos de alto desempenho: um <em className="italic highlight">conteúdo diferenciado com padrão editorial</em>. Uma estética sublime aliada aos fundamentos da <strong className="highlight">alta performance em posicionamento</strong> — seja em tráfego orgânico ou até mesmo em tráfego pago — sob medida para marcas que exigem e merecem o <strong className="highlight">extraordinário</strong>.
+              e bring together two decades of international experience in fashion photography, advanced prompt engineering, and business strategy to create far more than high-performing creatives: distinctive, editorial-grade content. A sublime aesthetic aligned with the principles of high-performance positioning — across organic and paid traffic alike — tailored for brands that demand, and deserve, the extraordinary.
             </p>
           </div>
 
