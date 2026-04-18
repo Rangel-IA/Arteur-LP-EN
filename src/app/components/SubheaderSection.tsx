@@ -64,7 +64,7 @@ export default function SubheaderSection() {
             </motion.div>
             
             <p className="arteur-subheader__caption">
-              Curadoria restrita. Vagas limitadas.
+              Selective curation. Limited availability.
             </p>
           </div>
         </motion.div>
