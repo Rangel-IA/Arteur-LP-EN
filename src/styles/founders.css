@@ -217,7 +217,11 @@
     transition: color 0.5s ease;
     text-align: justify;
     letter-spacing: 0.04em;
-    hyphens: auto;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    word-break: normal;
+    overflow-wrap: normal;
   }
   
   .arteur-founders__card:hover .arteur-founders__bio {
