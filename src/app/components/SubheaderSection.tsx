@@ -38,7 +38,7 @@ export default function SubheaderSection() {
           <div className="arteur-subheader__statement-wrap">
             <span className="arteur-subheader__dropcap" aria-hidden="true">W</span>
             <p className="arteur-subheader__statement">
-              e bring together two decades of international experience in fashion photography, advanced prompt engineering, and business strategy to create far more than high-performing creatives: distinctive, editorial-grade content. A sublime aesthetic aligned with the principles of high-performance positioning — across organic and paid traffic alike — tailored for brands that demand, and deserve, the extraordinary.
+              e bring together <strong className="highlight">two decades of international experience</strong> in <em className="italic">fashion photography</em>, advanced <strong className="highlight">prompt engineering</strong>, and <strong className="highlight">business strategy</strong> to create far more than high-performing creatives: <em className="italic highlight">distinctive, editorial-grade content</em>. A sublime aesthetic aligned with the principles of <strong className="highlight">high-performance positioning</strong> — across organic and paid traffic alike — tailored for brands that demand, and deserve, the <strong className="highlight">extraordinary</strong>.
             </p>
           </div>
 
