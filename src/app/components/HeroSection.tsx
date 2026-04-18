@@ -84,11 +84,6 @@ export default function HeroSection() {
         />
       </motion.div>
 
-      {/* ── Vertical brand mark (large, rotated) ─────────────────────── */}
-      <div className="arteur-hero__brand-vertical" aria-hidden="true">
-        ARTEUR
-      </div>
-
       {/* ── Accent rule (animated) ────────────────────────────────────── */}
       <motion.div
         className="arteur-hero__accent-rule"
