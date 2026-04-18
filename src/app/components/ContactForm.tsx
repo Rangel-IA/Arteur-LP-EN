@@ -202,7 +202,7 @@ export default function ContactForm() {
             </span>
           ) : (
             <>
-              <span className="arteur-subheader__cta-text">Submeter Para Curadoria</span>
+              <span className="arteur-subheader__cta-text">SUBMIT FOR CONSIDERATION</span>
               <span className="arteur-subheader__cta-arrow-box">
                 <ArrowRight className="arteur-subheader__cta-icon" />
               </span>
