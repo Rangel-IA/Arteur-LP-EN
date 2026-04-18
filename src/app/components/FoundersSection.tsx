@@ -76,7 +76,7 @@ export default function FoundersSection() {
               </p>
               <div className="arteur-founders__divider" aria-hidden="true" />
               <p className="arteur-founders__bio">
-                Estrategista de negócios e arquiteto de sistemas inteligentes. Com expertise em engenharia de prompt e UX/UI, André funde o rigor técnico da consultoria de crescimento com a estética de alto padrão. Sua atuação transcende o visual: ele desenvolve soluções proprietárias e fluxos de automação que transformam o design em um ativo de vendas escalável e mensurável.
+                A business strategist and architect of intelligent systems, André brings together expertise in prompt engineering and UX/UI with the technical rigor of growth consulting and a high-end aesthetic. His work extends far beyond the visual: he develops proprietary solutions and automation flows that transform design into a scalable, measurable sales asset.
               </p>
             </div>
           </motion.article>
@@ -107,11 +107,11 @@ export default function FoundersSection() {
             <div className="arteur-founders__content">
               <h3 className="arteur-founders__name">Stefano Raphael</h3>
               <p className="arteur-founders__role">
-                Visual Director &amp; Master of AI Synthesis
+                Visual Director &amp; AI Image Synthesis Specialist
               </p>
               <div className="arteur-founders__divider" aria-hidden="true" />
               <p className="arteur-founders__bio">
-                Com duas décadas na vanguarda da fotografia de moda internacional, Stefano funde sensibilidade óptica e iluminação cinemática com engenharia de precisão. Ele não apenas comanda a IA; ele a dirige como um arsenal ilimitado, criando setups e composições que só um mestre da luz poderia conceber. Sua assinatura é a síntese perfeita entre a alma da fotografia clássica e o poder da vanguarda generativa.
+                With two decades at the forefront of international fashion photography, Stefano brings together optical sensitivity, cinematic lighting, and precision engineering. He does not merely command AI; he directs it as an unlimited arsenal, creating setups and compositions that only a master of light could conceive. His signature is the perfect synthesis of the soul of classical photography and the power of the generative avant-garde.
               </p>
             </div>
           </motion.article>
