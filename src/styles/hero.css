@@ -356,7 +356,8 @@
 .arteur-hero__scroll {
   position: absolute;
   right: clamp(1.5rem, 4vw, 4rem);
-  bottom: calc(var(--hero-ticker-h) + 2.5rem);
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
