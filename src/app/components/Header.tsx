@@ -16,9 +16,9 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { name: 'O Método', href: '#manifesto' },
-    { name: 'A Dupla', href: '#fundadores' },
-    { name: 'Portfólio', href: '#portifolio' },
+    { name: 'The Method', href: '#manifesto' },
+    { name: 'Founders', href: '#fundadores' },
+    { name: 'Portfolio', href: '#portifolio' },
   ];
 
   return (
