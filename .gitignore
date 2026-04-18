@@ -1,0 +1,69 @@
+# --- DEPENDENCIES & RUNTIME ---
+node_modules/
+.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# --- BUILD & OUTPUT ---
+dist/
+dist-ssr/
+build/
+.next/
+.cache/
+.eslintcache
+.stylelintcache
+
+# --- ASSETS (A IA não lê código binário - Economia de Tokens) ---
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# Exception for expertise comparison images in public
+!public/assets/*.webp
+*.svg
+*.ico
+*.pdf
+*.mp4
+*.mov
+*.woff
+*.woff2
+*.ttf
+*.otf
+
+# --- ENVIRONMENT & SECRETS ---
+.env
+.env.local
+.env.*.local
+.git/
+
+# --- LOGS ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# --- EDITOR & OS ---
+.DS_Store
+._*
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+.agents/
+.gitignore.backup.*
+!src/assets/
+!src/assets/*.png
+!src/assets/*.jpg
+!src/assets/*.jpeg
+!src/assets/*.webp
+!src/assets/*.svg
+!src/assets/*.mp4
+!src/assets/*.mov
+*.code-workspace
+src/assets/._*
