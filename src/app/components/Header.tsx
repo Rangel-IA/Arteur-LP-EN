@@ -40,11 +40,9 @@ export default function Header() {
           ))}
           
           <a href="#aplicacao" className="arteur-header__cta">
-            QUALIFIQUE SUA MARCA
+            Apply
           </a>
         </nav>
-
-        {/* ── Mobile Trigger ────────────────────────────────────────── */}
         <button 
           className="arteur-header__mobile-trigger md-hidden"
           onClick={() => setIsMenuOpen(true)}
@@ -75,7 +73,7 @@ export default function Header() {
             </button>
 
             <nav className="arteur-mobile-menu__nav">
-              {[...navLinks, { name: 'Aplicação', href: '#aplicacao' }].map((link, i) => (
+              {[...navLinks, { name: 'Apply', href: '#aplicacao' }].map((link, i) => (
                 <motion.a 
                   key={link.href}
                   href={link.href}
