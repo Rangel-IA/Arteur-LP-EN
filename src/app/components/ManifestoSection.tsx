@@ -39,13 +39,13 @@ export default function ManifestoSection() {
               transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
             >
               <p className="arteur-manifesto__body">
-                No passado, criar uma linha editorial de imagens ou vídeos para campanhas de alto impacto significava alugar estúdios massivos, contratar modelos, maquiadores, figurinistas, diretores de arte, e investir orçamentos exorbitantes em equipamentos e cenografia. Um processo que drenava tempo e capital, estendendo-se por semanas.
+                In the past, creating an editorial visual universe of images or films for high-impact campaigns meant renting expansive studios, hiring models, makeup artists, stylists, and art directors, while pouring excessive budgets into equipment and set design. A process that consumed both time and capital, often stretching across weeks.
               </p>
               <p className="arteur-manifesto__body">
-                Não somos uma agência convencional. Rejeitamos o genérico e o mercado de entregas vulgares, de baixo nível. Nossa proposta é diametralmente oposta: uma abordagem de &quot;boutique&quot;, extremamente artesanal em seu planejamento, mas alimentada pelo que há de mais avançado em Inteligência Artificial.
+                We are not a conventional agency. We reject the generic — and the market of vulgar, low-grade deliverables that comes with it. Our proposition is the exact opposite: a boutique approach, deeply artisanal in its planning, yet powered by the most advanced capabilities in Artificial Intelligence.
               </p>
               <p className="arteur-manifesto__body">
-                Nossa expertise não descarta o fator humano; ela o amplifica. Comandamos a IA com a precisão de quem vivenciou a vanguarda global, entregando resultados de superioridade técnica e estética que até os olhos mais destreinados não conseguem ignorar.
+                Our expertise does not discard the human element; it amplifies it. We direct AI with the precision of those who have lived the global avant-garde, delivering results of such technical and aesthetic superiority that even the untrained eye cannot ignore.
               </p>
 
               <div className="arteur-manifesto__signature" aria-hidden="true">
