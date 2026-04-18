@@ -55,7 +55,7 @@ export default function SubheaderSection() {
                 href="#aplicacao"
                 className="arteur-subheader__cta"
               >
-                <span className="arteur-subheader__cta-text">Qualifique sua Marca</span>
+                <span className="arteur-subheader__cta-text">ELEVATE YOUR BRAND</span>
                 <span className="arteur-subheader__cta-arrow-box">
                   <ChevronRight className="arteur-subheader__cta-icon" />
                 </span>
