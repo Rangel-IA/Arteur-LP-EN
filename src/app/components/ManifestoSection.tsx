@@ -49,7 +49,7 @@ export default function ManifestoSection() {
               </p>
 
               <div className="arteur-manifesto__signature" aria-hidden="true">
-                Antítese do Genérico.
+                The Antithesis of the Generic.
               </div>
             </motion.div>
 
