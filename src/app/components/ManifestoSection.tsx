@@ -9,7 +9,7 @@ export default function ManifestoSection() {
         
         {/* Decorative running title top-bound */}
         <div className="arteur-manifesto__sidebar">
-          <span className="arteur-manifesto__vertical-title">O Método • Nova Era Visual</span>
+          <span className="arteur-manifesto__vertical-title">The Method • A New Visual Era</span>
         </div>
 
         <div className="arteur-manifesto__content">
