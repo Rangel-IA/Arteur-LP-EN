@@ -5,20 +5,19 @@ import logoImg from 'figma:asset/logo_01.png';
 
 // ─── Credential ticker items ──────────────────────────────────────────────────
 const TICKER_ITEMS = [
-  'Alta Costura Audiovisual',
-  'Engenharia de Prompt',
-  '20 Anos de Experiência Internacional',
-  'Direção de Arte & IA Generativa',
+  'Audiovisual Haute Couture',
+  'Prompt Engineering',
+  '20 Years of International Experience',
+  'Art Direction & Generative AI',
   'Boutique Visual Production',
-  'Fotografia de Moda',
-  'Estratégia de Posicionamento',
+  'Fashion Photography',
+  'Brand Positioning Strategy',
 ];
 
-// ─── Stat counters ────────────────────────────────────────────────────────────
 const STATS = [
-  { value: '20+', label: 'Anos de Expertise\nInternacional' },
-  { value: 'High-End', label: 'Produção de elite por uma\nfração do investimento' },
-  { value: '100%', label: 'IA de alta performance\nsob direção humana' },
+  { value: '20+', label: 'Years of International\nExpertise' },
+  { value: 'High-End', label: 'Elite production at a\nfraction of the investment' },
+  { value: '100%', label: 'High-performance AI\nunder human creative direction' },
 ];
 
 // ─── Stagger animation variant ────────────────────────────────────────────────
@@ -57,7 +56,7 @@ export default function HeroSection() {
       ref={containerRef}
       id="hero"
       className="arteur-hero"
-      aria-label="Hero — ARTEUR Alta Costura Audiovisual"
+      aria-label="Hero — ARTEUR Audiovisual Haute Couture"
     >
       {/* ── Video background ─────────────────────────────────────────── */}
       <motion.div className="arteur-hero__video-wrap" style={{ y: videoY }}>
@@ -111,11 +110,11 @@ export default function HeroSection() {
           variants={fadeUp}
         >
           <span className="arteur-hero__eyebrow-line" aria-hidden="true" />
-          Alta Costura Audiovisual &amp; IA
+          Haute Couture Audiovisual &amp; AI
         </motion.p>
 
         {/* Headline — Split into two lines for controlled typesetting */}
-        <h1 className="arteur-hero__headline" aria-label="A excelência visual não é mais um privilégio de orçamentos milionários. É uma questão de inteligência.">
+        <h1 className="arteur-hero__headline" aria-label="Visual excellence is no longer reserved for million-dollar budgets. It is a matter of intelligence.">
           <motion.span
             className="arteur-hero__headline-l1"
             custom={1}
@@ -123,7 +122,7 @@ export default function HeroSection() {
             animate="visible"
             variants={fadeUp}
           >
-            A excelência visual
+            Visual excellence
           </motion.span>
           <motion.span
             className="arteur-hero__headline-l2"
@@ -132,7 +131,7 @@ export default function HeroSection() {
             animate="visible"
             variants={fadeUp}
           >
-            não é mais um privilégio
+            is no longer reserved for
           </motion.span>
           <motion.span
             className="arteur-hero__headline-l3"
@@ -141,7 +140,7 @@ export default function HeroSection() {
             animate="visible"
             variants={fadeUp}
           >
-            de orçamentos milionários.
+            million-dollar budgets.
           </motion.span>
           <motion.em
             className="arteur-hero__headline-coda"
@@ -150,7 +149,7 @@ export default function HeroSection() {
             animate="visible"
             variants={fadeUp}
           >
-            É uma questão de inteligência.
+            It is a matter of intelligence.
           </motion.em>
         </h1>
 
@@ -162,7 +161,7 @@ export default function HeroSection() {
           animate="visible"
           variants={fadeUp}
           role="list"
-          aria-label="Credenciais ARTEUR"
+          aria-label="ARTEUR Credentials"
         >
           {STATS.map((s, i) => (
             <div key={i} className="arteur-hero__stat" role="listitem">
@@ -189,7 +188,7 @@ export default function HeroSection() {
             href="#aplicacao"
             className="arteur-hero__cta"
           >
-            <span className="arteur-hero__cta-text">Qualifique sua Marca</span>
+            <span className="arteur-hero__cta-text">Elevate Your Brand</span>
             <span className="arteur-hero__cta-arrow" aria-hidden="true">→</span>
             <span className="arteur-hero__cta-bg" aria-hidden="true" />
           </a>
@@ -199,7 +198,7 @@ export default function HeroSection() {
             href="#manifesto"
             className="arteur-hero__cta-ghost"
           >
-            Descubra o Método
+            Discover the Method
           </a>
         </motion.div>
       </div>
