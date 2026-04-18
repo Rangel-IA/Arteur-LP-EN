@@ -95,7 +95,7 @@ export default function ContactForm() {
         
         <div className="arteur-form__grid">
           <div className="arteur-form__group">
-            <label className="arteur-form__label">Nome do Responsável</label>
+            <label className="arteur-form__label">NAME OF THE RESPONSIBLE PARTY</label>
             <input 
               {...register("name", { required: true })}
               className={`arteur-form__input ${errors.name ? 'has-error' : ''}`}
@@ -105,7 +105,7 @@ export default function ContactForm() {
           </div>
           
           <div className="arteur-form__group">
-            <label className="arteur-form__label">Marca / Empresa</label>
+            <label className="arteur-form__label">BRAND / COMPANY</label>
             <input 
               {...register("company", { required: true })}
               className={`arteur-form__input ${errors.company ? 'has-error' : ''}`}
@@ -116,7 +116,7 @@ export default function ContactForm() {
         </div>
 
         <div className="arteur-form__group">
-          <label className="arteur-form__label">E-mail Corporativo</label>
+          <label className="arteur-form__label">CORPORATE EMAIL</label>
           <input 
             type="email"
             {...register("email", { required: true })}
@@ -128,7 +128,7 @@ export default function ContactForm() {
 
         <div className="arteur-form__grid">
           <div className="arteur-form__group">
-            <label className="arteur-form__label">Website Oficial</label>
+            <label className="arteur-form__label">OFFICIAL WEBSITE</label>
             <input 
               type="url"
               {...register("website")}
@@ -138,7 +138,7 @@ export default function ContactForm() {
           </div>
           
           <div className="arteur-form__group">
-            <label className="arteur-form__label">Perfil Instagram</label>
+            <label className="arteur-form__label">INSTAGRAM PROFILE</label>
             <input 
               {...register("instagram")}
               className="arteur-form__input"
@@ -149,14 +149,14 @@ export default function ContactForm() {
 
         {/* ── Budget Radio Cards ───────────────────────────────────── */}
         <div className="arteur-form__group">
-          <label className="arteur-form__label">Nível de Investimento Esperado (Budget)</label>
+          <label className="arteur-form__label">EXPECTED INVESTMENT LEVEL (BUDGET): STARTER / PREMIUM / BOUTIQUE / CURATED</label>
           <div className="arteur-budget-grid">
             
             {[
-              { id: 'limitado', title: 'Starter', desc: 'O essencial para impacto visual imediato.' },
-              { id: 'premium', title: 'Premium', desc: 'Campanhas consistentes de alta conversão.' },
-              { id: 'boutique', title: 'Boutique', desc: 'Direção exclusiva e escala global.' },
-              { id: 'indefinido', title: 'Curadoria', desc: 'Desenvolvimento de proposta sob medida.' },
+              { id: 'limitado', title: 'STARTER', desc: 'The essential foundation for immediate visual impact.' },
+              { id: 'premium', title: 'PREMIUM', desc: 'Consistent, high-conversion campaigns.' },
+              { id: 'boutique', title: 'BOUTIQUE', desc: 'Exclusive direction with global-scale execution.' },
+              { id: 'indefinido', title: 'CURATED', desc: 'A bespoke proposal developed for your brand.' },
             ].map((option) => (
               <label key={option.id} className="arteur-budget-card">
                 <input 
@@ -179,11 +179,11 @@ export default function ContactForm() {
         </div>
 
         <div className="arteur-form__group">
-          <label className="arteur-form__label">Descreva a Visão do Projeto</label>
+          <label className="arteur-form__label">Describe the Project Vision</label>
           <textarea 
             {...register("description", { required: true })}
             className={`arteur-form__textarea ${errors.description ? 'has-error' : ''}`}
-            placeholder="Qual o objetivo principal da campanha e o diferencial da sua marca?"
+            placeholder="What is the campaign’s primary objective, and what sets your brand apart?"
           />
           {errors.description && <span className="arteur-form__error">Obrigatório</span>}
         </div>
@@ -212,7 +212,7 @@ export default function ContactForm() {
         </motion.button>
         
         <p className="arteur-form__footer-text">
-          As aplicações são revisadas semanalmente.
+          APPLICATIONS ARE REVIEWED WEEKLY.
         </p>
       </form>
     </>
