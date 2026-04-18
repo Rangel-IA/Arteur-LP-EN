@@ -62,23 +62,22 @@ export default function PortfolioSection() {
         {/* ── Section Header ────────────────────────────────────────── */}
         <header className="arteur-portfolio__header">
           <div className="arteur-portfolio__header-left">
-            <span className="arteur-portfolio__eyebrow">Nosso Padrão</span>
+            <span className="arteur-portfolio__eyebrow">Our Standard</span>
             <h2 className="arteur-portfolio__title">
-              Obras de Arte <br />
-              <span className="arteur-portfolio__title-italic">Comerciais</span>
+              Commercial Works of <span className="arteur-portfolio__title-italic">Art</span>
             </h2>
           </div>
           
           <div className="arteur-portfolio__manifesto-box">
             <p className="arteur-portfolio__manifesto-text">
               <em className="intro-line">
-                Uma seleção restrita dos níveis de qualidade que atingimos.
+                A selective curation of the level of quality we deliver.
               </em>
               <span className="headline-line">
-                <strong className="high-contrast">100% idealizado pela inteligência humana,</strong>
+                <strong className="high-contrast">100% conceived by human intelligence,</strong>
               </span>
               <em className="secondary-line">
-                100% materializado por IA de altíssima performance.
+                100% brought to life by high-performance AI.
               </em>
             </p>
           </div>
