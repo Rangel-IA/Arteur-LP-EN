@@ -99,7 +99,7 @@ export default function ContactForm() {
             <input 
               {...register("name", { required: true })}
               className={`arteur-form__input ${errors.name ? 'has-error' : ''}`}
-              placeholder="Ex: Alexander McQueen"
+              placeholder="e.g. Alexander McQueen"
             />
             {errors.name && <span className="arteur-form__error">Obrigatório</span>}
           </div>
@@ -109,7 +109,7 @@ export default function ContactForm() {
             <input 
               {...register("company", { required: true })}
               className={`arteur-form__input ${errors.company ? 'has-error' : ''}`}
-              placeholder="Nome da sua marca"
+              placeholder="Your brand name"
             />
             {errors.company && <span className="arteur-form__error">Obrigatório</span>}
           </div>
@@ -121,7 +121,7 @@ export default function ContactForm() {
             type="email"
             {...register("email", { required: true })}
             className={`arteur-form__input ${errors.email ? 'has-error' : ''}`}
-            placeholder="voce@empresa.com"
+            placeholder="name@company.com"
           />
           {errors.email && <span className="arteur-form__error">Obrigatório</span>}
         </div>
@@ -133,7 +133,7 @@ export default function ContactForm() {
               type="url"
               {...register("website")}
               className="arteur-form__input"
-              placeholder="https://suamarca.com"
+              placeholder="https://yourbrand.com"
             />
           </div>
           
@@ -142,7 +142,7 @@ export default function ContactForm() {
             <input 
               {...register("instagram")}
               className="arteur-form__input"
-              placeholder="@suamarca"
+              placeholder="@yourbrand"
             />
           </div>
         </div>
