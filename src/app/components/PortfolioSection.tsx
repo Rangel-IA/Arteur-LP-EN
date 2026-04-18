@@ -7,26 +7,26 @@ import amalfiSpiderImg from '../../assets/ferrari_amalfi_spider.webp';
 const portfolioItems = [
   {
     id: '01',
-    title: 'Do Estúdio à Realidade',
-    subtitle: 'Automotive Excellence',
-    description: 'Direção Fotográfica + Engenharia de Prompt',
-    category: 'Direção de Arte & Render',
+    title: 'From Studio to Reality',
+    subtitle: 'From Studio to Reality',
+    description: '(PHOTOGRAPHIC DIRECTION + PROMPT ENGINEERING)',
+    category: 'ART DIRECTION & RENDERING',
     image: ferrariImg
   },
   {
     id: '02',
-    title: 'Desenho Sem Ruído',
-    subtitle: 'Ferrari Portofino',
-    description: 'Pós-Produção Integrada à Geração',
-    category: 'Linha de Design & Iluminação',
+    title: 'Clarity Without Noise',
+    subtitle: 'Clarity Without Noise',
+    description: '(POST-PRODUCTION BUILT INTO GENERATION)',
+    category: 'DESIGN LANGUAGE & LIGHTING',
     image: portofinoImg
   },
   {
     id: '03',
-    title: 'Cor Verdadeira, Narrativa Elevada',
-    subtitle: 'Ferrari Amalfi Spider',
-    description: 'Recontextualização Estratégica',
-    category: 'Coloração Real & Conceito de Marca',
+    title: 'True Color, Elevated Narrative',
+    subtitle: 'True Color, Elevated Narrative',
+    description: '(STRATEGIC RECONTEXTUALIZATION)',
+    category: 'TRUE-TO-LIFE COLOR GRADING & BRAND CONCEPT',
     image: amalfiSpiderImg
   }
 ];
@@ -117,7 +117,7 @@ export default function PortfolioSection() {
         {/* ── Visual Footer ─────────────────────────────────────────── */}
         <footer className="arteur-portfolio__footer">
           <div className="arteur-portfolio__line" />
-          <span className="arteur-portfolio__footer-text">Curadoria 2026 — Visual Excellence</span>
+          <span className="arteur-portfolio__footer-text">CURATION 2026 — VISUAL EXCELLENCE</span>
         </footer>
       </div>
     </section>
