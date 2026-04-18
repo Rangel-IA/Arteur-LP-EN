@@ -22,9 +22,9 @@ export default function ManifestoSection() {
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           >
             <h2 className="arteur-manifesto__title">
-              O que antes exigia<br /> quinze dias e dezenas<br /> de profissionais,
+              What once required<br /> fifteen days and dozens<br /> of professionals,
               <span className="arteur-manifesto__title-accent"> 
-                nós redefinimos com maestria.
+                we have redefined with mastery.
               </span>
             </h2>
           </motion.div>
