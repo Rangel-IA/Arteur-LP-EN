@@ -20,10 +20,10 @@ export default function ContactSection() {
             viewport={{ once: true, margin: "-10%" }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           >
-            <span className="arteur-contact__eyebrow">Seletividade</span>
+            <span className="arteur-contact__eyebrow">Selectivity</span>
             <h2 className="arteur-contact__title">
-              Apenas Projetos <br />
-              Que <span className="arteur-contact__title-italic">Desafiam o Óbvio.</span>
+              Only Projects <br />
+              That <span className="arteur-contact__title-italic">Challenge the Obvious.</span>
             </h2>
           </motion.div>
 
@@ -35,7 +35,7 @@ export default function ContactSection() {
             transition={{ duration: 1, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
           >
             <p className="arteur-contact__description">
-              Nosso tempo e talento são reservados exclusivamente para marcas que buscam transcender o ordinário. Escolhemos nossos clientes a dedo para garantir uma entrega inigualável. Submeta seu projeto à nossa curadoria.
+              Our time and talent are reserved exclusively for brands seeking to transcend the ordinary. We hand-select our clients to ensure an unmatched level of delivery. Submit your project for our consideration.
             </p>
           </motion.div>
         </header>
