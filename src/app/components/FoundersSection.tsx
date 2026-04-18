@@ -33,11 +33,11 @@ export default function FoundersSection() {
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
           >
             <span className="arteur-founders__eyebrow" aria-hidden="true">
-              As Mentes Por Trás
+              The Minds Behind It
             </span>
             <h2 className="arteur-founders__title">
-              O Vértice entre <br />
-              <span className="arteur-founders__title-accent">Estratégia e Arte</span>
+              The Vertex Between <br />
+              <span className="arteur-founders__title-accent">Strategy and Art</span>
             </h2>
           </motion.div>
         </div>
