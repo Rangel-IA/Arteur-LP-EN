@@ -25,26 +25,25 @@ export default function StatementSection() {
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
         >
           <h2 className="arteur-statement__title">
-            Produções <span className="highlight">High-End</span> agora <br />
-            geradas por uma fração do investimento tradicional.
+            <span className="highlight">High-end</span> productions, now delivered at a fraction of the traditional investment.
           </h2>
           
           <div className="arteur-statement__grid">
             <div className="arteur-statement__item">
-              <span className="arteur-statement__label">Zero Logística</span>
-              <p className="arteur-statement__text">Sem estúdio. Sem equipe massiva. Sem riscos.</p>
+              <span className="arteur-statement__label">ZERO LOGISTICS</span>
+              <p className="arteur-statement__text">No studio. No large crew. No risk.</p>
             </div>
             
             <div className="arteur-statement__divider" />
             
             <div className="arteur-statement__item">
-              <span className="arteur-statement__label">Máxima Expertise</span>
-              <p className="arteur-statement__text">Curadoria humana e engenharia de prompt de elite.</p>
+              <span className="arteur-statement__label">MAXIMUM EXPERTISE</span>
+              <p className="arteur-statement__text">Human curation and elite prompt engineering.</p>
             </div>
           </div>
           
           <p className="arteur-statement__final">
-            Execução de alto nível para marcas que <em className="italic">recusam o óbvio</em>.
+            HIGH-LEVEL EXECUTION FOR BRANDS THAT REFUSE THE OBVIOUS.
           </p>
         </motion.div>
       </div>
