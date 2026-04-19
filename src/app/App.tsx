@@ -1,7 +1,5 @@
 import React from 'react';
 import { Routes, Route } from 'react-router';
-import { motion, AnimatePresence } from 'motion/react';
-import { ChevronRight, Play, Camera, Star, ArrowRight } from 'lucide-react';
 
 import HeroSection from './components/HeroSection';
 import '../styles/hero.css';
