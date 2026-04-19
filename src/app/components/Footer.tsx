@@ -33,7 +33,7 @@ export default function Footer() {
             <h4 className="arteur-footer__col-label">NAVIGATION:</h4>
             <ul className="arteur-footer__nav-list">
               <li><a href="#manifesto">The Method</a></li>
-              <li><a href="#fundadores">The Duo</a></li>
+              <li><a href="#fundadores">Founders</a></li>
               <li><a href="#portifolio">Portfolio</a></li>
             </ul>
           </nav>
