@@ -153,7 +153,7 @@ export default function ContactForm() {
           <div className="arteur-budget-grid">
             
             {[
-              { id: 'limitado', title: 'STARTER', desc: 'The essential foundation for immediate visual impact.' },
+              { id: 'limitado', title: 'STARTER', desc: 'Immediate visual impact.' },
               { id: 'premium', title: 'PREMIUM', desc: 'Consistent, high-conversion campaigns.' },
               { id: 'boutique', title: 'BOUTIQUE', desc: 'Exclusive direction with global-scale execution.' },
               { id: 'indefinido', title: 'CURATED', desc: 'A bespoke proposal developed for your brand.' },
