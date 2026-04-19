@@ -10,8 +10,8 @@ export default function WhatsappWidget() {
   return (
     <div className="arteur-whatsapp-widget">
       <div className="arteur-whatsapp-tooltip">
-        <span>Consultoria Exclusiva:</span>
-        <strong>Como posso ajudar?</strong>
+        <span>EXCLUSIVE CONSULTING:</span>
+        <strong>How can I help?</strong>
         <div className="arteur-whatsapp-tooltip-arrow" />
       </div>
 
