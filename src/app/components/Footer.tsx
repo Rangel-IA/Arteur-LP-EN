@@ -16,25 +16,25 @@ export default function Footer() {
           <div className="arteur-footer__col-brand">
             <img src={footerLogo} alt="ARTEUR" className="arteur-footer__logo" />
             <p className="arteur-footer__tagline">
-              Boutique de produção visual de <br /> elite para marcas extraordinárias.
+              An elite visual production boutique for extraordinary brands.
             </p>
           </div>
 
           {/* ── About Column ─────────────────────────────────────────── */}
           <div className="arteur-footer__col-about">
-            <h4 className="arteur-footer__col-label">Quem Somos</h4>
+            <h4 className="arteur-footer__col-label">WHO WE ARE</h4>
             <p className="arteur-footer__about-text">
-              Unimos 20+ anos de maestria fotográfica com engenharia avançada de IA. Não criamos apenas imagens; desenvolvemos ativos visuais de alto luxo que resolvem problemas complexos de branding e escala.
+              We bring together 20+ years of photographic mastery and advanced AI engineering. We do not just create images; we develop luxury-grade visual assets that solve complex branding and scale challenges.
             </p>
           </div>
 
           {/* ── Nav Column ──────────────────────────────────────────── */}
           <nav className="arteur-footer__col-nav">
-            <h4 className="arteur-footer__col-label">Navegação</h4>
+            <h4 className="arteur-footer__col-label">NAVIGATION:</h4>
             <ul className="arteur-footer__nav-list">
-              <li><a href="#manifesto">O Método</a></li>
-              <li><a href="#fundadores">A Dupla</a></li>
-              <li><a href="#portifolio">Portfólio</a></li>
+              <li><a href="#manifesto">The Method</a></li>
+              <li><a href="#fundadores">The Duo</a></li>
+              <li><a href="#portifolio">Portfolio</a></li>
             </ul>
           </nav>
 
@@ -45,11 +45,11 @@ export default function Footer() {
           <div className="arteur-footer__divider" />
           <div className="arteur-footer__bottom-content">
             <p className="arteur-footer__copyright">
-              © {new Date().getFullYear()} ARTEUR — Todos os direitos reservados.
+              © 2026 ARTEUR — ALL RIGHTS RESERVED.
             </p>
             <div className="arteur-footer__labels">
-              <span className="arteur-footer__label-pill">Boutique Services</span>
-              <span className="arteur-footer__label-pill">AI Precision</span>
+              <span className="arteur-footer__label-pill">Tags: BOUTIQUE SERVICES ;</span>
+              <span className="arteur-footer__label-pill">AI PRECISION</span>
             </div>
           </div>
         </div>
